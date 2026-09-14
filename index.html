@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المهندس أبوبكر الزيادي | RPM Master</title>
+    <!-- استدعاء Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- استدعاء خط Cairo الاحترافي -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 scroll-smooth">
+
+    <!-- شريط التنقل (Navbar) المحدث -->
+    <nav class="bg-black text-white shadow-lg fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            
+            <!-- قسم الشعار (صورة المهندس + الاسم) -->
+            <div class="flex items-center gap-3">
+                <!-- الأيقونة الدائرية (صورة المهندس) -->
+                <img src="icon.png" alt="المهندس أبوبكر الزيادي" class="w-12 h-12 rounded-full border-2 border-red-600 object-cover shadow-sm shadow-red-600/50 hover:scale-105 transition-transform duration-300">
+                
+                <!-- الاسم النصي -->
+                <div class="text-xl md:text-2xl font-bold text-red-600">
+                    أبوبكر<span class="text-white"> الزيادي</span>
+                </div>
+            </div>
+
+            <!-- روابط التنقل -->
+            <div class="hidden md:flex space-x-6 space-x-reverse font-semibold text-gray-300 items-center">
+                <a href="#about" class="hover:text-red-500 transition">من أنا</a>
+                <a href="#courses" class="hover:text-red-500 transition">الدورات التدريبية</a>
+                <a href="#register" class="bg-red-600 text-white px-5 py-2 rounded-md shadow-md hover:bg-red-700 hover:shadow-lg hover:-translate-y-0.5 transition-all">سجل الآن</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- الواجهة الرئيسية (Hero Section) -->
+    <section class="relative bg-gray-900 text-white pt-32 pb-20 lg:pt-40 lg:pb-28 mt-4">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl lg:text-6xl font-extrabold mb-6">
+                احتراف تشخيص أعطال السيارات <span class="text-red-600">OBD</span>
+            </h1>
+            <p class="text-lg lg:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                ارتقِ بمهاراتك في صيانة وبرمجة السيارات الحديثة مع المهندس أبوبكر الزيادي. دورات عملية تطبيقية تنقلك من الأساسيات إلى الاحتراف.
+            </p>
+            <a href="#register" class="inline-block bg-red-600 text-white text-lg font-bold px-8 py-4 rounded-full shadow-lg shadow-red-600/30 hover:bg-red-700 hover:-translate-y-1 transition transform duration-300">
+                ابدأ رحلتك الآن
+            </a>
+        </div>
+    </section>
+
+    <!-- قسم صورة RPM المظللة -->
+    <section class="relative w-full h-[400px] md:h-[500px] overflow-hidden border-b-4 border-red-600">
+        <!-- الصورة -->
+        <img src="WhatsApp Image 2026-09-14 at 1.50.31 PM.jpeg" alt="RPM Master - المهندس أبوبكر الزيادي" class="w-full h-full object-cover object-center">
+        <!-- طبقة التظليل (Dark Overlay) -->
+        <div class="absolute inset-0 bg-black/60 flex items-center justify-center">
+        </div>
+    </section>
+
+    <!-- قسم النبذة التعريفية (About Section) -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold mb-4 text-black border-r-4 border-red-600 pr-4">المهندس أبوبكر الزيادي</h2>
+                <p class="text-gray-600 mb-4 leading-relaxed text-lg">
+                    مهندس ميكانيكي متخصص ومدرب معتمد في فحص وتشخيص أعطال السيارات عبر أنظمة OBD. 
+                    مؤسس مسار <strong>RPM MASTER</strong> التدريبي، وأمتلك سنوات من الخبرة العملية في ورش الصيانة والتدريب الأكاديمي والعملي، لمساعدة الفنيين والمهندسين على فهم الأنظمة الإلكترونية المعقدة في السيارات الحديثة.
+                </p>
+                <div class="flex gap-4 mt-6">
+                    <div class="bg-gray-100 p-4 rounded text-center w-1/2 border border-gray-200">
+                        <h4 class="font-bold text-xl text-red-600">خبرة عملية</h4>
+                        <p class="text-gray-500 text-sm">في ميكانيكا المحركات</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded text-center w-1/2 border border-gray-200">
+                        <h4 class="font-bold text-xl text-red-600">تدريب معتمد</h4>
+                        <p class="text-gray-500 text-sm">تخريج دفعات تقنية</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 bg-gray-900 text-white p-8 rounded-lg shadow-xl border-l-4 border-red-600">
+                <h3 class="text-2xl font-bold mb-4">لماذا تتدرب معنا؟</h3>
+                <ul class="space-y-4 text-gray-300">
+                    <li class="flex items-center gap-2">
+                        <span class="text-red-600">✓</span> تطبيق عملي مباشر على السيارات.
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-red-600">✓</span> فهم عميق للأنظمة والمخططات الكهربائية.
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-red-600">✓</span> دعم فني مستمر بعد انتهاء الدورة.
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-red-600">✓</span> شهادات معتمدة تثبت كفاءتك في سوق العمل.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الدورات (Courses Section) -->
+    <section id="courses" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-black mb-2">دورات <span class="text-red-600">RPM MASTER</span></h2>
+                <p class="text-gray-500">دورات مصممة لتلبية احتياجات سوق العمل التطبيقي</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- الدورة الأولى -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition duration-300 border border-gray-200">
+                    <div class="bg-black h-40 flex items-center justify-center border-b-4 border-red-600">
+                        <span class="text-gray-200 text-xl font-bold">OBD الأساسيات</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">أساسيات فحص OBD</h3>
+                        <p class="text-gray-600 text-sm mb-4">تعرف على بروتوكولات الفحص، قراءة الأكواد، ومسح الأعطال بكفاءة.</p>
+                        <span class="text-red-600 font-bold text-sm bg-red-100 px-3 py-1 rounded-full">عبر التطبيق</span>
+                    </div>
+                </div>
+
+                <!-- الدورة الثانية -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition duration-300 border border-gray-200">
+                    <div class="bg-black h-40 flex items-center justify-center border-b-4 border-red-600">
+                        <span class="text-gray-200 text-xl font-bold">المخططات الكهربائية</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">احتراف المخططات</h3>
+                        <p class="text-gray-600 text-sm mb-4">كيفية تتبع الظفيرة الكهربائية وقراءة المخططات الخاصة بكل شركة مصنعة.</p>
+                        <span class="text-red-600 font-bold text-sm bg-red-100 px-3 py-1 rounded-full">عبر التطبيق</span>
+                    </div>
+                </div>
+
+                <!-- الدورة الثالثة -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition duration-300 border border-gray-200">
+                    <div class="bg-black h-40 flex items-center justify-center border-b-4 border-red-600">
+                        <span class="text-gray-200 text-xl font-bold">برمجة الكنترول</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">برمجة عقول السيارات</h3>
+                        <p class="text-gray-600 text-sm mb-4">مستوى متقدم في التعامل مع ECU وبرمجة المفاتيح وأنظمة الحماية.</p>
+                        <span class="text-red-600 font-bold text-sm bg-red-100 px-3 py-1 rounded-full">عبر التطبيق</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التسجيل المربوط بواتساب -->
+    <section id="register" class="py-20 bg-black text-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="bg-gray-900 p-8 md:p-12 rounded-xl shadow-2xl border border-gray-800 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-red-600 rounded-full blur-3xl opacity-20 -mr-10 -mt-10"></div>
+                
+                <h2 class="text-3xl font-bold text-center mb-8 relative z-10">احجز مقعدك <span class="text-red-600">الآن</span></h2>
+                
+                <form id="registrationForm" class="space-y-6 relative z-10">
+                    <div>
+                        <label class="block text-gray-300 mb-2">الاسم الثلاثي</label>
+                        <input type="text" id="userName" class="w-full p-3 bg-gray-800 text-white rounded border border-gray-700 focus:border-red-600 focus:outline-none transition" required placeholder="أدخل اسمك الكريم">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-300 mb-2">رقم الهاتف (بمفتاح الدولة)</label>
+                        <input type="tel" id="userPhone" class="w-full p-3 bg-gray-800 text-white rounded border border-gray-700 focus:border-red-600 focus:outline-none transition" required placeholder="مثال: 2189...">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-300 mb-2">اختر الدورة المناسبة</label>
+                        <select id="selectedCourse" class="w-full p-3 bg-gray-800 text-white rounded border border-gray-700 focus:border-red-600 focus:outline-none transition">
+                            <option value="دورة أساسيات فحص OBD">دورة أساسيات فحص OBD</option>
+                            <option value="دورة احتراف المخططات">دورة احتراف المخططات</option>
+                            <option value="دورة برمجة عقول السيارات">دورة برمجة عقول السيارات</option>
+                        </select>
+                    </div>
+                    
+                    <button type="button" onclick="sendToWhatsApp()" class="w-full bg-red-600 text-white font-bold py-4 rounded hover:bg-red-700 transition flex items-center justify-center gap-2">
+                        <span>إرسال طلب التسجيل عبر واتساب</span>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="bg-black border-t border-gray-800 text-center py-6 text-gray-500 text-sm">
+        <p>جميع الحقوق محفوظة &copy; 2026 | المهندس أبوبكر الزيادي - RPM Master</p>
+    </footer>
+
+    <script>
+        function sendToWhatsApp() {
+            const name = document.getElementById('userName').value.trim();
+            const phone = document.getElementById('userPhone').value.trim();
+            const course = document.getElementById('selectedCourse').value;
+            
+            if(name === "" || phone === "") {
+                alert("الرجاء تعبئة جميع الحقول (الاسم ورقم الهاتف).");
+                return;
+            }
+
+            // تذكر تغيير هذا الرقم لرقم المهندس أبوبكر الفعلي
+            const trainerWhatsApp = "218915014624"; 
+
+            const message = `مرحباً مهندس أبوبكر،\nأرغب في التسجيل في إحدى دورات RPM MASTER.\n\nالاسم: ${name}\nرقم التواصل: ${phone}\nالدورة المختارة: ${course}\n\nتحياتي.`;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${trainerWhatsApp}?text=${encodedMessage}`;
+            
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
